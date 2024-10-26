@@ -1,0 +1,212 @@
+/* main */
+
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('../fonts/MyriadPro-Regular.woff2') format('woff2'),
+        url('../fonts/MyriadPro-Regular.woff') format('woff'),
+        url('../fonts/MyriadPro-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Myriad Pro', sans-serif;
+    font-weight: 400;
+    color: #909090;
+}
+
+.container{
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.clearfix::after{
+    display: block;
+    content: '';
+    clear: both;
+}
+/* header */
+
+.header{
+    padding: 22px 0 0 0 ;
+}
+
+.logo{
+    background: url(../img/logo.png) no-repeat left center;
+    text-decoration: none;
+    color: #000000;
+    font-size: 42px;
+    letter-spacing: 0.01em;
+    padding: 1px 0 1px 55px;
+    float: left;
+}
+
+.nav_ul{
+    float: right;
+    min-height: 47px;
+}
+
+.nav_li{
+    float: left;
+    margin-right: 30px;
+    min-height: 69px;
+    padding: 0 0 22px 0;
+}
+
+.nav_link{
+    color: #6c6c6c;
+    font-size: 20px;
+    letter-spacing: 0.01em;
+    text-decoration: none;
+    line-height: 44px;
+}
+
+.nav_li:hover{
+    border-bottom: 3px solid #5094f2;
+}
+
+/* first-section */
+
+.first-section{
+    background: url(../img/fs-bg.jpg) no-repeat center center / cover;
+}
+
+.first-section_group{
+    background:  url(../img/iphone.png) no-repeat left center;
+    padding-left: 400px;
+    margin-left: 36px;
+    min-height: 436px;
+    color: #fff;
+    line-height: 44px;
+    padding-top: 149px;
+    padding-bottom: 134px;
+}
+
+.main-title{
+    font-size: 42px;
+}
+
+.first-screen_p{
+    max-width: 250px;
+    font-size: 26px;
+    margin-bottom: 31px;
+}
+
+.sign-up{
+    background: #5094f2;
+    color: #fff;
+    font-size: 22px;
+    line-height: 23px;
+    text-decoration: none;
+    padding: 8px 11px;
+    border-radius: 2px;
+}
+
+.sign-up_icon{
+    background: #5094f2 url(../img/checked.svg) no-repeat left center;
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.sign-up_text{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* second-section */
+
+.second-section{
+    padding: 57px 0 92px 0;
+}
+
+.cards_item{
+    display: inline-block;
+    text-align: center;
+    min-width: 33.332%;
+}
+
+.cards_icons{
+    width: 186px;
+    height: 186px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background: #ebbb11 url(../img/yellow-card-bg.png) no-repeat center center;
+}
+
+.cards_icons-blue{
+    background: #5094f2 url(../img/blue-card-bg.png) no-repeat center center;
+}
+
+.cards_icons-red{
+    background: #d94748 url(../img/red-card-bg.png) no-repeat center center;
+}
+
+.cards_title{
+    color: #5094f2;
+    font-size: 20px;
+    margin: 28px 0 6px 0 ;
+}
+
+.cards_p{
+    max-width: 248px;
+    color: #909090;
+    font-size: 14px;
+    margin: 0 auto;
+}
+
+/* third-section */
+
+.third-section{
+    color: #6f7173;
+    line-height: 44px;
+    padding-bottom: 50px;
+}
+
+.section-title{
+    font-size: 42px;
+    margin-bottom: 33px;
+}
+
+.cart-group{
+    max-width: 371px;
+    float: left;
+}
+
+.cart-decr-group{
+    float: left;
+    min-width: 455px;
+    padding-top: 45px;
+    margin-left: 82px;
+}
+
+.cart-title{
+    font-size: 26px;
+    margin-bottom: 12px;
+}
+
+.cart-descr{
+    color: #909090;
+    font-size: 15px;
+    line-height: 36px;
+}
+
+/* footer */
+
+.footer{
+    border-top: 1px solid #e5e5e5;
+    padding: 23px 0 34px 0;
+}
+
+.credits{
+    margin: 0 auto;
+    text-align: center;
+    line-height: 36px;
+    font-size: 15px;
+}
